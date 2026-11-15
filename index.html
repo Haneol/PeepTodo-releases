@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PeepTodo</title>
+<meta name="description" content="사람과 AI 에이전트가 함께 쓰는 할 일 앱">
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif;
+    line-height: 1.6;
+    background: #0d1117;
+    color: #e6edf3;
+    display: flex;
+    justify-content: center;
+  }
+  main { max-width: 640px; padding: 96px 24px 64px; }
+  h1 { font-size: 2.5rem; margin: 0 0 8px; }
+  .tagline { font-size: 1.15rem; color: #9da7b3; margin: 0 0 40px; }
+  .features { margin: 0 0 48px; padding: 0; list-style: none; }
+  .features li { padding: 10px 0 10px 28px; position: relative; border-bottom: 1px solid #21262d; }
+  .features li:last-child { border-bottom: none; }
+  .features li::before { content: "•"; position: absolute; left: 8px; color: #58a6ff; }
+  .download {
+    display: inline-block;
+    background: #238636;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.05rem;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  .download:hover { background: #2ea043; }
+  .platforms { margin-top: 16px; color: #9da7b3; font-size: 0.95rem; }
+  footer { margin-top: 72px; color: #6e7681; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>PeepTodo</h1>
+  <p class="tagline">사람과 AI 에이전트가 함께 쓰는 할 일 앱</p>
+
+  <ul class="features">
+    <li>로컬 우선 — 오프라인에서도 모든 기능이 동작하고, 연결되면 자동으로 동기화됩니다</li>
+    <li>실시간 — 다른 기기와 AI 에이전트의 변경이 바로 반영됩니다</li>
+    <li>앱 밖에서도 — 리마인더, 상황 리마인더(장소·Wi-Fi·충전·블루투스), 홈 화면 위젯</li>
+    <li>어떤 화면에서도 — 휴대폰, 태블릿, 데스크톱 모두에 맞춘 화면</li>
+  </ul>
+
+  <a class="download" href="https://github.com/Haneol/PeepTodo-releases/releases/latest/download/app.zip">Windows용 다운로드</a>
+  <p class="platforms">Windows 설치 파일 (zip) · Android는 Play 스토어에서 배포 중</p>
+
+  <footer>PeepTodo</footer>
+</main>
+</body>
+</html>
